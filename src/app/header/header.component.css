@@ -1,29 +1,19 @@
-span {
-  color: #1dbf73;
-  font-size: 50px;
-}
-span:hover {
-  color: #fff;
-  transition: 0.5s;
-}
-
 .nav {
-  position: fixed;
+  position:sticky;
   background-color: #222;
   top: 0;
   left: 0;
   right: 0;
   transition: all 0.3s ease-in-out;
 }
-
-.nav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  transition: all 0.3s ease-in-out;
+span{
+  color: #1DBF73;
+  font-size: 50px;
 }
-
+span:hover{
+  color: #fff;
+  transition: 0.5s;
+}
 .nav ul {
   display: flex;
   list-style-type: none;

@@ -8,6 +8,10 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then((x) => x.HomeModule),
   },
+  {
+    path: 'process',
+    loadChildren: () => import('./process/process.module').then((x) => x.ProcessModule),
+  },
  
 ]; // sets up routes constant where you define your routes
 
